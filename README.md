@@ -27,4 +27,4 @@ docker-compose build
 docker-compose up
 ```
 
-3. Go to the [localhost](127.0.0.1:5000) and check the result of work
+3. Go to the localhost as 127.0.0.1:5000 and check the result of work
