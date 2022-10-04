@@ -1,0 +1,16 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}Stats{% endblock %}
+
+{% block content %}
+<main>
+    <div class="container">
+        <h1>Hello, this is a simple application to work with data from Google Sheets with the PostgreSQL DBMS.</h1>
+        <h3>If you want to update the data in database, then click on 'Update' button.</h3>
+        <button type="button" class="btn btn-primary" onClick="window.location.reload();">Update</button>
+        {% if message is defined %}
+            <p>{{message}}</p>
+        {% endif %}
+    </div>
+</main>
+{% endblock %}
